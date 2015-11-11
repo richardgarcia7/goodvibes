@@ -1,0 +1,441 @@
+/******************************/
+/******** Template CSS ********/
+/******************************/
+body { margin: 0px; font-size: 16px; line-height: 1.6; background: url(../images/bg.gif) top; color: #000000; }
+p { margin: 15px 0px; }
+ul.menu, ul.menu ul, ul.menu ul ul, .pagination ul, .actions li, #login-form ul, ul.dropdown-menu, ul.breadcrumb, ul.pagenav, ul.category-module { list-style: none; padding: 0; margin: 0; }
+img { border: none; padding: 0; margin: 0; }
+.clr { clear: both; }
+h1, h2, h3, h4, h5 { margin: 0px;}
+h1 { font-size: 26px; }
+h2 { font-size: 24px; }
+h3 { font-size: 22px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+form input, form select, textarea { font-size: 17px; }
+@media screen and (min-width:768px){
+body { font-size: 14px; }
+h1 { font-size: 24px; }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+form input, form select { font-size: 15px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.ff1, .ff1 .inputbox, .ff1 input.button { font-family: Arial, Helvetica, sans-serif; }
+.ff2, .ff2 .inputbox, .ff2 input.button { font-family: "Times New Roman", Times, serif; }
+.ff3, .ff3 .inputbox, .ff3 input.button { font-family: "Courier New", Courier, monospace; }
+.ff4, .ff4 .inputbox, .ff4 input.button { font-family: "Georgia", Times New Roman, Times, serif; }
+.ff5, .ff5 .inputbox, .ff5 input.button { font-family: "Verdana", Arial, Helvetica, sans-serif; }
+.ff6, .ff6 .inputbox, .ff6 input.button { font-family: "Geneva", Arial, Helvetica, sans-serif; }
+.ff7, .ff7 .inputbox, .ff7 input.button { font-family: "Book Antiqua"; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.tooltip { position: absolute; z-index: 1030; display: block; font-size: 12px; line-height: 1.4; opacity: 0; filter: alpha(opacity=0); visibility: visible; }
+.tooltip.in { opacity: .8; filter: alpha(opacity=80); }
+.tooltip.top { padding: 5px 0; margin-top: -3px; }
+.tooltip-inner { max-width: 200px; padding: 8px; color: #fff; text-align: center; text-decoration: none; background-color: #000; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.tooltip-arrow { position: absolute; width: 0; height: 0; border-color: transparent; border-style: solid; }
+.tooltip.top .tooltip-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-color: #000; border-width: 5px 5px 0; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+@media screen and (min-width:768px){
+#header-line { padding: 5px 0px; height: 100px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#header-structure, #banner-structure, #advert-structure, #content-structure, #footer-structure { padding: 0px 10px; }
+@media screen and (min-width:768px){
+#header-structure, #banner-structure, #advert-structure, #content-structure, #footer-structure { width: 970px; margin: 0 auto; }
+#toolbar-structure, #copy-structure { width: 970px; margin: 0 auto; padding: 0px 10px; }
+#spacer-structure { width: 970px; height: 30px; margin: 0 auto; padding: 0px 10px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#banner-bg { margin: 0px 0px 20px 0px; }
+#advert-bg, #footer-bg { float: left; width: 100%; padding: 15px 0px 0px 0px; margin: 0px 0px 20px 0px; }
+#copy-bg { padding: 10px; }
+@media screen and (min-width:768px){
+#toolbar-bg { width: 968px; height: 45px; border-radius: 7px; }
+#advert-bg, #footer-bg { min-width: 990px; width: 100%; }
+#spacer-bg { width: 970px; height: 30px; margin: 0 auto; border-radius: 8px 8px 0px 0px; background: url(../images/spacer.gif); }
+#banner-bg { float: left; width: 970px; }
+#copy-bg { padding: 10px 15px; float: left; width: 938px; border-radius: 7px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+@media screen and (min-width:768px){
+#content-right-col { float: left; width: 650px; }
+#content-left-col { float: right; width: 650px; }
+#content-left-right { float: left; width: 430px; margin-left: 20px; }
+#right-right-col { float: right; width: 300px; }
+#left-left-col { float: left; width: 300px; }
+#left-left-right { float: left; width: 250px; }
+#right-left-right { float: right; width: 250px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.logo { width: 100%; }
+#logo { max-width: 320px; margin: 0 auto; }
+#search { padding: 10px 15px; background: #999999; text-align: center; }
+#header { margin: 0px 0px 10px 0px; }
+#spacer { display: none; }
+#copy, #powered { text-align: center; }
+@media screen and (min-width:768px){
+.logo { width: auto; height: 100px; }
+#logo { max-width: none; float: left; }
+#toolbar { float: left; }
+#search { float: right; clear: none; width: auto; z-index: auto; padding: 0px 10px 0px 0px; background: none; text-align: left; }
+#header { float: right; max-width: 550px; height: 90px; margin: 5px 0px 0px 0px; overflow: hidden; }
+#spacer { display: block; height: 25px; }
+#copy { float: left; }
+#powered { float: right; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#header p { margin: 0; }
+.advert h3.heading, .footer h3.heading { margin: 0px 0px 10px 0px; padding: 0px 0px 5px 0px; }
+.user h3.heading { margin: 0px 0px 10px 0px; padding: 0px 0px 5px 0px; border-bottom: 1px solid #c0c0c0; }
+.advert .menu a, .footer .menu a { padding: 4px 0px; display: block; }
+.user .menu a { color: #000000; text-decoration: none; padding: 4px 0px; display: block; border-bottom: 1px solid #c0c0c0; }
+.blog-featured h2 a, .blog h2 a, .item-page h2 a, .contact h2 a, .dropdown-menu a, .category-name a, .user .newsflash-title a, .user a.readmore, ul.pagenav .previous a, ul.pagenav .next a { color: #000000; text-decoration: none; }
+#search .menu li a { font-size: 15px; font-weight: bold; }
+#header .menu li a { color: #000000; text-decoration: none; }
+#header .menu li { text-align: center; }
+#search .menu li li, #search .menu li li li, #header .menu li li, #header .menu li li li { display: none; }
+@media screen and (min-width:768px){
+#search .menu li { float: left; line-height: 3; margin: 0px 10px 0px 15px; }
+#header .menu li { float: left; margin: 35px 0px 0px 25px; text-align: left; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.page-header h1.heading, .contact h1 { font-size: 20px; padding-bottom: 5px; margin-bottom: 10px; border-bottom: 1px solid #c0c0c0; }
+.blog-featured h2, .blog h2, .item-page h2, .contact h2 { font-size: 18px; }
+.dropdown-menu li { display: inline; margin-right: 10px; }
+dl.article-info dd { padding: 0; margin: 0; }
+.newsflash-title { margin-top: 10px; }
+.pagination { text-align: center; float: left; width: 100%; margin-bottom: 15px; }
+.pagination li { display: inline; }
+li.pagination-num { display: none; }
+.pagination .pagenav { padding: 5px 10px; text-decoration: none; margin: 0px 2px; border-radius: 5px; background: url(../images/button.gif); border: 1px solid #dedede; color: #000000; }
+ul.pagenav .previous { float: left; margin-bottom: 15px; }
+ul.pagenav .next { float: right; margin-bottom: 15px; }
+p.counter { margin-top: -10px; }
+p.readmore a { padding: 5px 10px; text-decoration: none; border-radius: 5px; background: url(../images/button.gif); border: 1px solid #dedede; color: #000000; }
+.category-desc { border-bottom: 1px solid #c0c0c0; margin: 0px 0px 15px 0px; }
+@media screen and (min-width:768px){
+li.pagination-num { display: inline; }
+p.readmore { text-align: right; }
+}
+/******************************/
+/******* Joomla Config ********/
+/******************************/
+#system-message { padding: 5px 10px 10px 10px; background: #111111; color: #FFFFFF; }
+.alert-message .close { float: right; display: block; }
+.alert-warning .close { float: right; }
+#system-message p { margin: 0px; }
+/******************************/
+/******* Joomla Config ********/
+/******************************/
+#adminForm .nav-tabs a { color: #000000; text-decoration: none; }
+#adminForm ul.nav-tabs { padding: 0; margin: 0px 0px 10px 0px; }
+#adminForm fieldset { padding: 0px; border: none; }
+#adminForm .nav-tabs { margin-left: 0; margin-bottom: 18px; list-style: none; }
+#adminForm .nav-tabs > li > a { display: block; }
+#adminForm .nav-tabs:before, #adminForm .nav-tabs:after { display: table; content: ""; line-height: 0; }
+#adminForm .nav-tabs:after { clear: both; }
+#adminForm .nav-tabs > li { float: left; }
+#adminForm .nav-tabs > li > a { padding-right: 12px; padding-left: 12px; margin-right: 2px; line-height: 14px; }
+#adminForm .nav-tabs { border-bottom: 1px solid #ddd; }
+#adminForm .nav-tabs > li { margin-bottom: -1px; }
+#adminForm .nav-tabs > li > a { padding-top: 8px; padding-bottom: 8px; line-height: 18px; border: 1px solid transparent; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; }
+#adminForm .nav-tabs > li > a:hover, #adminForm .nav-tabs > li > a:focus { border-color: #eee #eee #ddd; }
+#adminForm .nav-tabs > .active > a, #adminForm .nav-tabs > .active > a:hover, #adminForm .nav-tabs > .active > a:focus { color: #555; background-color: #f0f0f0; border: 1px solid #ddd; border-bottom-color: transparent; cursor: default; }
+.tab-content > .tab-pane { display: none; }
+.tab-content > .active { display: block; }
+/******************************/
+/******* Joomla Config ********/
+/******************************/
+.btn-toolbar button.btn { margin: 0px 2px 10px 2px; }
+.btn-toolbar a.btn { border: 1px solid #c0c0c0; padding: 6px 10px; display: block; margin: 5px 0px; color: #000000; text-decoration: none; background: url(../images/button.gif) center; color: #363636; border-radius: 5px; }
+@media screen and (min-width:480px){
+.btn-toolbar a.btn { border: 1px solid #c0c0c0; padding: 6px 10px; margin: 0px 2px 10px 2px; display: inline; color: #000000; text-decoration: none; background: url(../images/button.gif) center; color: #363636; border-radius: 5px; }
+#adminForm .pull-left { float: left; padding: 10px 0px 15px 0px; }
+#adminForm .pull-right { float: right; padding: 10px 0px 15px 0px; }
+}
+@font-face { font-family: 'IcoMoon'; src: url('../../../media/jui/fonts/IcoMoon.eot'); src: url('../../../media/jui/fonts/IcoMoon.eot?#iefix') format('embedded-opentype'), url('../../../media/jui/fonts/IcoMoon.woff') format('woff'), url('../../../media/jui/fonts/IcoMoon.ttf') format('truetype'), url('../../../media/jui/fonts/IcoMoon.svg#IcoMoon') format('svg'); font-weight: normal; font-style: normal; }
+[class^="icon-"]:before, [class*=" icon-"]:before { font-family: 'IcoMoon'; font-style: normal; speak: none; }
+.tab-pane { float: left; width: 100%; }
+.control-group .inputbox { border: 1px solid #c0c0c0; padding: 3px; width: 250px; }
+.control-label { margin: 10px 0px 5px 0px; }
+.icon-calendar:before { content: "\43"; }
+.icon-calendar-2:before { content: "\44"; }
+.icon-calendar-3:before { content: "\e273"; }
+#adminForm .editor { margin: 10px 0px 0px 0px; }
+#adminForm fieldset { margin: 0px 0px 15px 0px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#right-right-col .moduletable, #left-left-col .moduletable, #left-left-right .moduletable, #right-left-right .moduletable { margin-bottom: 15px; }
+#right-right-col h3.heading, #left-left-col h3.heading, #left-left-right h3.heading, #right-left-right h3.heading { margin: 0px 0px 10px 0px; padding: 0px 0px 5px 0px; border-bottom: 1px solid #c0c0c0; }
+#right-right-col .menu a, #left-left-col .menu a, #left-left-right .menu a, #right-left-right .menu a { padding: 5px 10px; display: block; margin: 2px 0px; border-radius: 7px; text-align: center; font-weight: bold; }
+#right-right-col .menu a:hover, #left-left-col .menu a:hover, #left-left-right .menu a:hover, #right-left-right .menu a:hover { color: #FFFFFF; background: url(../images/menu_hover.gif) center; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#login-form { padding: 10px; border-radius: 7px; }
+#form-login-username, #form-login-password { margin-bottom: 10px; }
+#login-form .inputbox { padding: 4px; width: 95%; border: 1px solid #c0c0c0; }
+#jform_name, #jform_username, #jform_password1, #jform_password2, #jform_email1, #jform_email2, #jform_email { padding: 4px; width: 95%; border: 1px solid #c0c0c0; }
+#member-registration, #user-registration { margin-bottom: 15px; }
+#member-registration fieldset, #user-registration fieldset { margin-bottom: 10px; }
+#login-form .button { margin: 10px 0px 0px 0px; }
+#login-form ul { margin-top: 10px; }
+@media screen and (min-width:768px){
+#jform_name, #jform_username, #jform_password1, #jform_password2, #jform_email1, #jform_email2, #jform_email { width: 250px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#contact-form { margin: 15px 0px; }
+#jform_contact_name, #jform_contact_email, #jform_contact_emailmsg { padding: 4px; width: 94%; border: 1px solid #c0c0c0; }
+#jform_contact_message { padding: 4px; width: 94%; border: 1px solid #c0c0c0; }
+.contact h2 { margin-bottom: 15px; }
+.contact-emailto a, .contact a { color: #000000; text-decoration: none; }
+.contact dd, .contact dt { display: inline; }
+.contact dd { margin-right: 100px; }
+@media screen and (min-width:768px){
+#jform_contact_name, #jform_contact_email, #jform_contact_emailmsg { width: 250px; }
+#jform_contact_message { height: 250px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.search .inputbox { padding: 3px; border: 1px solid #c0c0c0; }
+.search .form-limit { text-align: center; margin-top: 10px; }
+.result-created, .result-category, .result-text { padding: 0; margin: 0; }
+.result-created { margin-bottom: 10px; }
+#searchForm #ordering, #searchForm #limit { padding: 3px; }
+.highlight { color: #000000; }
+#searchForm { color: #000000; }
+.result-title a { color: #000000; text-decoration: none; }
+#header .search { text-align: center; }
+@media screen and (min-width:768px){
+#search .search form { margin-top: 8px; }
+#header .search { margin-top: 30px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+input.button, button.button, button.btn { padding: 4px 10px; border: none; border-radius: 5px; }
+a.btn { color: #000000; text-decoration: none; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+@media screen and (min-width:768px){
+#content-right-col .cols-4 .column-1, #content-left-col .cols-4 .column-1 { width: 152px; float: left; }
+#content-right-col .cols-4 .column-2, #content-left-col .cols-4 .column-2 { width: 152px; float: left; margin-left: 14px; }
+#content-right-col .cols-4 .column-3, #content-left-col .cols-4 .column-3 { width: 152px; float: left; margin-left: 14px; }
+#content-right-col .cols-4 .column-4, #content-left-col .cols-4 .column-4 { width: 152px; float: right; }
+#content-right-col .cols-3 .column-1, #content-left-col .cols-3 .column-1 { width: 206px; float: left; }
+#content-right-col .cols-3 .column-2, #content-left-col .cols-3 .column-2 { width: 206px; float: left; margin-left: 16px; }
+#content-right-col .cols-3 .column-3, #content-left-col .cols-3 .column-3 { width: 206px; float: right; }
+#content-right-col .cols-2 .column-1, #content-left-col .cols-2 .column-1 { width: 317px; float: left; }
+#content-right-col .cols-2 .column-2, #content-left-col .cols-2 .column-2 { width: 317px; float: right; }
+#content-right-col .cols-1 .column-1, #content-left-col .cols-1 .column-1 { width: 650px; float: left; }
+#content-left-right .cols-3 .column-1 { width: 134px; float: left; }
+#content-left-right .cols-3 .column-2 { width: 134px; float: left; margin-left: 14px; }
+#content-left-right .cols-3 .column-3 { width: 134px; float: right; }
+#content-left-right .cols-2 .column-1 { width: 207px; float: left; }
+#content-left-right .cols-2 .column-2 { width: 207px; float: right; }
+#content-left-right .cols-1 .column-1 { width: 430px; float: left; }
+#content-no-col .cols-5 .column-1 { width: 182px; float: left; }
+#content-no-col .cols-5 .column-2 { width: 182px; float: left; margin-left: 15px; }
+#content-no-col .cols-5 .column-3 { width: 182px; float: left; margin-left: 15px; }
+#content-no-col .cols-5 .column-4 { width: 182px; float: left; margin-left: 15px; }
+#content-no-col .cols-5 .column-5 { width: 182px; float: right; }
+#content-no-col .cols-4 .column-1 { width: 232px; float: left; }
+#content-no-col .cols-4 .column-2 { width: 232px; float: left; margin-left: 14px; }
+#content-no-col .cols-4 .column-3 { width: 232px; float: left; margin-left: 14px; }
+#content-no-col .cols-4 .column-4 { width: 232px; float: right; }
+#content-no-col .cols-3 .column-1 { width: 314px; float: left; }
+#content-no-col .cols-3 .column-2 { width: 314px; float: left; margin-left: 14px; }
+#content-no-col .cols-3 .column-3 { width: 314px; float: right; }
+#content-no-col .cols-2 .column-1 { width: 477px; float: left; }
+#content-no-col .cols-2 .column-2 { width: 477px; float: right; }
+#content-no-col .cols-1 .column-1 { width: 970px; float: left; }
+}
+#content-right-col .cols-4 .column-1, #content-left-col .cols-4 .column-1, #content-right-col .cols-4 .column-2, #content-left-col .cols-4 .column-2, #content-right-col .cols-4 .column-3, #content-left-col .cols-4 .column-3, #content-right-col .cols-4 .column-4, #content-left-col .cols-4 .column-4, #content-right-col .cols-3 .column-1, #content-left-col .cols-3 .column-1, #content-right-col .cols-3 .column-2, #content-left-col .cols-3 .column-2, #content-right-col .cols-3 .column-3, #content-left-col .cols-3 .column-3, #content-right-col .cols-2 .column-1, #content-left-col .cols-2 .column-1, #content-right-col .cols-2 .column-2, #content-left-col .cols-2 .column-2, #content-right-col .cols-1 .column-1, #content-left-col .cols-1 .column-1, #body-left-right .cols-3 .column-1, #body-left-right .cols-3 .column-2, #body-left-right .cols-3 .column-3, #body-left-right .cols-2 .column-1, #body-left-right .cols-2 .column-2, #body-left-right .cols-1 .column-1, #content-no-col .cols-5 .column-1, #content-no-col .cols-5 .column-2, #content-no-col .cols-5 .column-3, #content-no-col .cols-5 .column-4, #content-no-col .cols-5 .column-5, #content-no-col .cols-4 .column-1, #content-no-col .cols-4 .column-2, #content-no-col .cols-4 .column-3, #content-no-col .cols-4 .column-4, #content-no-col .cols-3 .column-1, #content-no-col .cols-3 .column-2, #content-no-col .cols-3 .column-3, #content-no-col .cols-2 .column-1, #content-no-col .cols-2 .column-2, #content-no-col .cols-1 .column-1 { padding-bottom: 15px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+@media screen and (min-width:768px){
+.advert19 .one, .footer19 .one { width: 182px; float: left; }
+.advert19 .two, .footer19 .two { width: 182px; float: left; margin-left: 15px; }
+.advert19 .three, .footer19 .three { width: 182px; float: left; margin-left: 15px; }
+.advert19 .four, .footer19 .four { width: 182px; float: left; margin-left: 15px; }
+.advert19 .five, .footer19 .five { width: 182px; float: right; }
+.advert24 .one, .footer24 .one { width: 232px; float: left; }
+.advert24 .two, .footer24 .two { width: 232px; float: left; margin-left: 14px; }
+.advert24 .three, .footer24 .three { width: 232px; float: left; margin-left: 14px; }
+.advert24 .four, .footer24 .four { width: 232px; float: right; }
+.advert33 .one, .footer33 .one { width: 314px; float: left; }
+.advert33 .two, .footer33 .two { width: 314px; float: left; margin-left: 14px; }
+.advert33 .three, .footer33 .three { width: 314px; float: right; }
+.advert49 .one, .footer49 .one { width: 477px; float: left; }
+.advert49 .two, .footer49 .two { width: 477px; float: right; }
+.advert99 .one, .footer99 .one { width: 970px; float: left; }
+}
+.advert19 .one, .footer19 .one, .advert19 .two, .footer19 .two, .advert19 .three, .footer19 .three, .advert19 .four, .footer19 .four, .advert19 .five, .footer19 .five, .advert24 .one, .footer24 .one, .advert24 .two, .footer24 .two, .advert24 .three, .footer24 .three, .advert24 .four, .footer24 .four, .advert33 .one, .footer33 .one, .advert33 .two, .footer33 .two, .advert33 .three, .footer33 .three, .advert49 .one, .footer49 .one, .advert49 .two, .footer49 .two, .advert99 .one, .footer99 .one { padding-bottom: 15px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+@media screen and (min-width:768px){
+#user-right-col .user33 .one, #user-left-col .user33 .one { width: 206px; float: left; }
+#user-right-col .user33 .two, #user-left-col .user33 .two { width: 206px; float: left; margin-left: 16px; }
+#user-right-col .user33 .three, #user-left-col .user33 .three { width: 206px; float: right; }
+#user-right-col .user49 .one, #user-left-col .user49 .one { width: 317px; float: left; }
+#user-right-col .user49 .two, #user-left-col .user49 .two { width: 317px; float: right; }
+#user-right-col .user99 .one, #user-left-col .user99 .one { width: 650px; float: left; }
+#user-left-right .user33 .one { width: 134px; float: left; }
+#user-left-right .user33 .two { width: 134px; float: left; margin-left: 14px; }
+#user-left-right .user33 .three { width: 134px; float: right; }
+#user-left-right .user49 .one { width: 207px; float: left; }
+#user-left-right .user49 .two { width: 207px; float: right; }
+#user-left-right .user99 .one { width: 430px; float: left; }
+#user-no-col .user33 .one { width: 314px; float: left; }
+#user-no-col .user33 .two { width: 314px; float: left; margin-left: 14px; }
+#user-no-col .user33 .three { width: 314px; float: right; }
+#user-no-col .user49 .one { width: 477px; float: left; }
+#user-no-col .user49 .two { width: 477px; float: right; }
+#user-no-col .user99 .one { width: 970px; float: left; }
+}
+#user-right-col .user33 .one, #user-left-col .user33 .one, #user-right-col .user33 .two, #user-left-col .user33 .two, #user-right-col .user33 .three, #user-left-col .user33 .three, #user-right-col .user49 .one, #user-left-col .user49 .one, #user-right-col .user49 .two, #user-left-col .user49 .two, #user-right-col .user99 .one, #user-left-col .user99 .one, #user-left-right .user33 .one, #user-left-right .user33 .two, #user-left-right .user33 .three, #user-left-right .user49 .one, #user-left-right .user49 .two, #user-left-right .user99 .one, #user-no-col .user33 .one, #user-no-col .user33 .two, #user-no-col .user33 .three, #user-no-col .user49 .one, #user-no-col .user49 .two, #user-no-col .user99 .one { padding-bottom: 15px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#navigation { height: 34px; padding: 5px 0px; clear: both; }
+.navigation { float: left; margin: 3px 0px 0px 15px; font-size: 18px; font-weight: bold; }
+@media screen and (min-width:768px){
+#navigation { float: left; height: auto; padding: 0px; clear: none; }
+.navigation { display: none; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#toolbar { clear: both; width: 100%; position: relative; z-index: 5; margin: 39px 0px 0px 0px; }
+#toolbar .menu a { font-size: 16px; display: block; font-weight: normal; padding: 3px 15px; }
+@media screen and (min-width:768px){
+#toolbar { clear: none; width: auto; z-index: auto; margin: 0px; }
+#toolbar .menu a { font-size: 15px; font-weight: bold; padding: 0px 15px; }
+#toolbar .menu li { float: left; position:relative; padding: 0px; line-height: 3; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#toolbar .menu li li a { font-weight: normal; font-size: 14px; background: none; }
+#toolbar .menu ul { float:none; left:-999em; position:absolute; z-index: 99; }
+#toolbar .menu ul { width: 190px; padding: 5px 0px 10px 0px; border-radius: 0px 0px 7px 7px; }
+#toolbar .menu ul li { width: 190px; padding: 2px 0px; position:relative;  margin-left: 0px; line-height: 1.8; }
+#toolbar .menu li li, #toolbar li:hover ul, #toolbar li.sfhover ul { left: auto; }
+#toolbar ul.menu li li:hover { background: none; }
+#toolbar ul.menu li.active li a, #toolbar ul.menu li.active li a:hover, #toolbar ul.menu li.active li a:active, #toolbar ul.menu li.active li a:focus { background: none !important; }
+#toolbar ul.menu ul li.active a, #toolbar ul.menu ul li.active a:hover, #toolbar ul.menu ul li.active a:active, #toolbar ul.menu ul li.active a:focus { background: none !important; }
+#toolbar ul.menu li.active li a, #toolbar ul.menu li.active li a:hover, #toolbar ul.menu li.active li a:active, #toolbar ul.menu li.active li a:focus { background: none !important; }
+#toolbar ul.menu li.active li a, #toolbar ul.menu li.active li a:hover, #toolbar ul.menu li.active li a:active, #toolbar ul.menu li.active li a:focus { background: none !important; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#toolbar .menu li li li a { font-weight: normal; font-size: 14px; }
+#toolbar .menu ul ul { margin: -1.8em 0 0 12.2em; }
+#toolbar .menu ul ul { position: absolute; z-index: 99; height: auto; }
+#toolbar .menu ul ul { padding: 5px 0px; border-radius: 7px; background: #252525; }
+#toolbar ul.menu li li li:hover { }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#toolbar li:hover ul ul, #toolbar li:hover ul ul ul, #toolbar li.sfhover ul ul, #toolbar li.sfhover ul ul ul, #toolbar ul.menu li:hover ul ul, #toolbar ul.menu li:hover ul ul ul, #toolbar ul.menu li.sfhover ul ul, #toolbar ul.menu li.parentsfhover ul ul, #toolbar ul.menu li.parent-activesfhover ul ul, #toolbar ul.menu li.activesfhover ul ul, #toolbar ul.menu li.sfhover ul ul ul, #toolbar ul.menu li.parentsfhover ul ul ul, #toolbar ul.menu li.parent-activesfhover ul ul ul, #toolbar ul.menu li.activesfhover ul ul ul { left: -999em; }
+#toolbar li:hover ul, #toolbar li li:hover ul, #toolbar li li li:hover ul, #toolbar li.sfhover ul, #toolbar li li.sfhover ul, #toolbar li li li.sfhover ul, #toolbar ul.menu li:hover ul, #toolbar ul.menu li li:hover ul, #toolbar ul.menu li li li:hover ul, #toolbar ul.menu li.sfhover ul, #toolbar ul.menu li.parentsfhover ul, #toolbar ul.menu li.parent-activesfhover ul, #toolbar ul.menu li.activesfhover ul, #toolbar ul.menu li li.sfhover ul, #toolbar ul.menu li li.havesubchildsfhover ul, #toolbar ul.menu li li.havesubchild-activesfhover ul, #toolbar ul.menu li li.activesfhover ul, #toolbar ul.menu li li li.sfhover ul, #toolbar ul.menu li li li.havesubchildsfhover ul, #toolbar ul.menu li li li.havesubchild-activesfhover ul, #toolbar ul.menu li li li.activesfhover ul { left: auto; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.collapse { display: none }
+.collapse.in { display: block }
+.collapsing { position: relative; height: 0; overflow: hidden; -webkit-transition: height .35s ease; -o-transition: height .35s ease; transition:height .35s ease }
+@media (min-width:768px){
+.navbar-collapse.collapse { display: block!important; height: auto!important; padding-bottom: 0; overflow: visible!important; }
+}
+.navbar-toggle { position: relative; float: right; padding: 5px; margin:0px 10px 0px 0px; background-color: transparent; border-radius:4px }
+.navbar-toggle:focus { outline: 0; }
+.navbar-toggle .icon-bar { display: block; width: 25px; height: 4px; border-radius: 1px; }
+.navbar-toggle .icon-bar+.icon-bar { margin-top: 4px; }
+@media (min-width:768px){ .navbar-toggle { display: none; } }
+.navbar-inverse .navbar-toggle { border: 1px solid #3f3f3f; background: #111111; }
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus { background: #000000; }
+.navbar-inverse .navbar-toggle .icon-bar{ background: #FFFFFF; }
+
+
+
+
+
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+#advert-bg, #footer-bg { background: url(../images/black/advert_bg.gif); border-bottom: 3px solid #000000; border-top: 3px solid #000000; }
+#copy-bg { background: #111111; }
+@media screen and (min-width:768px){
+#toolbar-bg { border: 1px solid #000000; background: url(../images/black/toolbar_bg.gif); }
+#copy-bg { border: 1px solid #000000; }
+}
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+.advert, .footer, #copy, #powered { color: #FFFFFF; }
+.advert h3.heading, .footer h3.heading { border-bottom: 1px solid #363636; }
+.advert .menu a, .footer .menu a { color: #FFFFFF; text-decoration: none; border-bottom: 1px solid #363636; }
+.advert .newsflash-title a, .footer .newsflash-title a, .advert a.readmore, .footer a.readmore, #powered a { color: #FFFFFF; text-decoration: none; }
+#search .menu li a { color: #FFFFFF; text-decoration: none; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+#right-right-col .menu a, #left-left-col .menu a, #left-left-right .menu a, #right-left-right .menu a { color: #FFFFFF; text-decoration: none; background: url(../images/black/menu.gif) center; border: 1px solid #000000; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+#login-form { background: url(../images/black/advert_bg.gif); border: 1px solid #000000; color: #FFFFFF; }
+#login-form a { color: #FFFFFF; text-decoration: none; }
+input.button, button.button, button.btn { color: #FFFFFF; background: url(../images/black/button.gif); border: 1px solid #626262; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+#navigation { background: #111111; }
+.navigation { color: #FFFFFF; }
+@media screen and (min-width:768px){
+#navigation { background: none; }
+.navigation { display: none; }
+}
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+#toolbar { background: #111111; }
+#toolbar .menu a { color: #FFFFFF; text-decoration: none; border-top: 1px solid #363636; }
+@media screen and (min-width:768px){
+#toolbar { background: none; }
+#toolbar .menu a { border-top: none; }
+#toolbar .menu li.active a, #toolbar .menu li.active a:hover, #toolbar .menu li.active a:active, #toolbar .menu li.active a:focus { background: url(../images/black/toolbar_current.gif); }
+#toolbar ul.menu li:hover { background: url(../images/black/toolbar_hover.gif); }
+#toolbar .menu ul { background: #000000; }
+#toolbar ul.menu li.active li a, #toolbar ul.menu li.active li a:hover, #toolbar ul.menu li.active li a:active, #toolbar ul.menu li.active li a:focus { color: #FFFFFF; }
+#toolbar .menu ul ul { background: #252525; }
+}

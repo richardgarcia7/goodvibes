@@ -1,0 +1,57 @@
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+#advert-float { background: #252525; border-bottom: 5px solid #0a0a0a; }
+#footer-float { border-bottom: 1px solid #111111; }
+#frame-top { background: #252525; border-bottom: 5px solid #0a0a0a; }
+#frame-bottom { background: #252525; border-top: 5px solid #0a0a0a; }
+#banner { border: 5px solid #111111; }
+#header { background: #252525; }
+@media screen and (min-width:480px){
+#header { background: url(../../images/style4/header.gif) center; }
+}
+@media screen and (min-width:768px){
+#header { border: 2px solid #000000; }
+}
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+.footer, .advert, #copyright, #designer { color: #FFFFFF; }
+.advert a, .footer a, #designer a { color: #FFFFFF; text-decoration: none; }
+.advert h3.h3title, .footer h3.h3title { color: #FFFFFF; }
+.upper h3.h3title, .bottom h3.h3title, .user h3.h3title, .inside h3.h3title { color: #000000; }
+.advert .menu a, .footer .menu a { border-bottom: 1px solid #111111; }
+.advert h3.h3title, .footer h3.h3title { border-bottom: 1px solid #111111; }
+.blog-featured h1, .blog h1, .contact h1, .page-header h1, .item-page h2, .item-page h1 { color: #000000; }
+.blog-featured h2, .blog h2 { color: #000000; }
+.blog-featured h2 a, .blog h2 a { color: #000000; text-decoration: none; }
+p.readmore a { background: url(../../images/style4/button.gif) center; border: 1px solid #111111; color: #FFFFFF; }
+.pagination .pagenav { background: url(../../images/style4/button.gif) center; border: 1px solid #111111; color: #FFFFFF; }
+#modlgn-username, #modlgn-passwd, #jform_contact_name, #jform_contact_email, #jform_contact_emailmsg, #jform_contact_message, .search .inputbox {border: 1px solid #111111; }
+input.button, button.button, #member-registration button.btn, #user-registration button.btn, #contact-form button.btn, .btn-toolbar button.btn { background: url(../../images/style4/button.gif) center; border: 1px solid #111111; color: #FFFFFF; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+form#login-form { border: 1px solid #111111; background: #363636; color: #FFFFFF; }
+#login-form a { color: #FFFFFF; text-decoration: none; }
+#right-right-only .menu a, #left-left-only .menu a, #left-left-right .menu a, #right-left-right .menu a, #right-right-center .menu a, #center-right-center .menu a, #left-left-center .menu a, #center-left-center .menu a, #left-left-right-center .menu a, #right-left-right-center .menu a, #center-left-right-center .menu a, #center-center-only .menu a, ul.category-module a { background: url(../../images/style4/button.gif) center; border: 1px solid #111111; color: #FFFFFF; }
+#right-right-only h3.h3title, #left-left-only h3.h3title, #left-left-right h3.h3title, #right-left-right h3.h3title, #right-right-center h3.h3title, #left-left-center h3.h3title, #left-left-right-center h3.h3title, #right-left-right-center h3.h3title, #center-right-center h3.h3title, #center-left-center h3.h3title, #center-left-right-center h3.h3title, #center-center-only h3.h3title { color: #000000; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+#navigation { background: #000000; }
+.navigation { color: #FFFFFF; }
+#toolbar { background: #000000; }
+#toolbar .menu a { color: #FFFFFF; border-top: 1px solid #363636; }
+@media screen and (min-width:480px){
+#navigation { background: none; }
+}
+@media screen and (min-width:768px){
+#toolbar { background: none; }
+#toolbar .menu a { color: #FFFFFF; border-top: none; }
+#toolbar .menu li li a { color: #FFFFFF; }
+#toolbar .menu ul { background: #313131; border-bottom: 2px solid #000000; border-right: 2px solid #000000; border-left: 2px solid #000000; }
+#toolbar ul.menu li.active li a, #toolbar ul.menu li.active li a:hover, #toolbar ul.menu li.active li a:active, #toolbar ul.menu li.active li a:focus { color: #FFFFFF; }
+#toolbar .menu li li li a { color: #FFFFFF; }
+#toolbar .menu ul ul { background: #313131; border-top: 2px solid #1a0e08; }
+}

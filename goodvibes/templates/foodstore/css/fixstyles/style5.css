@@ -1,0 +1,41 @@
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+#advert-float { background: #999999; border-bottom: 5px solid #7e7e7e; }
+#footer-float { border-bottom: 1px solid #828282; }
+#frame-top { background: #999999; border-bottom: 5px solid #7e7e7e; }
+#frame-bottom { background: #999999; border-top: 5px solid #7e7e7e; }
+#banner { border: 5px solid #777777; }
+#header { background: url(../../images/style5/header.gif) center; border: 2px solid #777777; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+.footer, .advert { color: #000000; }
+.advert a, .footer a, #designer a { color: #000000; text-decoration: none; }
+.advert h3.h3title, .footer h3.h3title { color: #000000; }
+.upper h3.h3title, .bottom h3.h3title, .user h3.h3title, .inside h3.h3title { color: #000000; }
+.advert .menu a, .footer .menu a { border-bottom: 1px solid #828282; }
+.advert h3.h3title, .footer h3.h3title { border-bottom: 1px solid #828282; }
+.blog-featured h1, .blog h1, .contact h1, .page-header h1, .item-page h2, .item-page h1 { color: #000000; }
+.blog-featured h2, .blog h2 { color: #000000; }
+.blog-featured h2 a, .blog h2 a { color: #000000; text-decoration: none; }
+p.readmore a { background: url(../../images/style5/button.gif) center; border: 1px solid #777777; color: #000000; }
+.pagination .pagenav { background: url(../../images/style5/button.gif) center; border: 1px solid #777777; color: #000000; }
+#modlgn-username, #modlgn-passwd, #jform_contact_name, #jform_contact_email, #jform_contact_emailmsg, #jform_contact_message, .search .inputbox {border: 1px solid #777777; }
+input.button, button.button, #member-registration button.btn, #user-registration button.btn, #contact-form button.btn, .btn-toolbar button.btn { background: url(../../images/style5/button.gif) center; border: 1px solid #777777; color: #000000; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+form#login-form { border: 1px solid #777777; background: #cbcbcb; }
+#login-form a { color: #000000; text-decoration: none; }
+#right-right-only .menu a, #left-left-only .menu a, #left-left-right .menu a, #right-left-right .menu a, #right-right-center .menu a, #center-right-center .menu a, #left-left-center .menu a, #center-left-center .menu a, #left-left-right-center .menu a, #right-left-right-center .menu a, #center-left-right-center .menu a, #center-center-only .menu a, ul.category-module a { background: url(../../images/style5/button.gif) center; border: 1px solid #777777; color: #000000; }
+#right-right-only h3.h3title, #left-left-only h3.h3title, #left-left-right h3.h3title, #right-left-right h3.h3title, #right-right-center h3.h3title, #left-left-center h3.h3title, #left-left-right-center h3.h3title, #right-left-right-center h3.h3title, #center-right-center h3.h3title, #center-left-center h3.h3title, #center-left-right-center h3.h3title, #center-center-only h3.h3title { color: #000000; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+#toolbar .menu a { color: #000000; }
+#toolbar .menu li li a { color: #000000; }
+#toolbar .menu ul { background: #adadad; border-bottom: 2px solid #777777; border-right: 2px solid #777777; border-left: 2px solid #777777; }
+#toolbar ul.menu li.active li a, #toolbar ul.menu li.active li a:hover, #toolbar ul.menu li.active li a:active, #toolbar ul.menu li.active li a:focus { color: #000000; }
+#toolbar .menu li li li a { color: #000000; }
+#toolbar .menu ul ul { background: #adadad; border-top: 2px solid #777777; }
